@@ -14,6 +14,7 @@
 		D5CB2D5727499EB90015B888 /* ProyectoFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5CB2D5527499EB90015B888 /* ProyectoFinal.xcdatamodeld */; };
 		D5CB2D5927499EBA0015B888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CB2D5827499EBA0015B888 /* Assets.xcassets */; };
 		D5CB2D5C27499EBA0015B888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CB2D5A27499EBA0015B888 /* LaunchScreen.storyboard */; };
+		D5CB2D642749AEED0015B888 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CB2D632749AEED0015B888 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D5CB2D5827499EBA0015B888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5CB2D5B27499EBA0015B888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5CB2D5D27499EBA0015B888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CB2D632749AEED0015B888 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D5CB2D4C27499EB90015B888 /* AppDelegate.swift */,
 				D5CB2D4E27499EB90015B888 /* SceneDelegate.swift */,
 				D5CB2D5027499EB90015B888 /* ViewController.swift */,
+				D5CB2D632749AEED0015B888 /* TableViewController.swift */,
 				D5CB2D5227499EB90015B888 /* Main.storyboard */,
 				D5CB2D5827499EBA0015B888 /* Assets.xcassets */,
 				D5CB2D5A27499EBA0015B888 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				D5CB2D5127499EB90015B888 /* ViewController.swift in Sources */,
 				D5CB2D5727499EB90015B888 /* ProyectoFinal.xcdatamodeld in Sources */,
 				D5CB2D4D27499EB90015B888 /* AppDelegate.swift in Sources */,
+				D5CB2D642749AEED0015B888 /* TableViewController.swift in Sources */,
 				D5CB2D4F27499EB90015B888 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y7ZFZHRTW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProyectoFinal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,7 +314,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y7ZFZHRTW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProyectoFinal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -336,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
